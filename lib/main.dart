@@ -43,7 +43,7 @@ void main() async {
       runApp(const MyApp(isSupported: false));
     }
   } else {
-    runApp(const MyApp(isSupported: false));
+    runApp(const MyApp(isSupported: true));
   }
 }
 
